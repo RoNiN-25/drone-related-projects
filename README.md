@@ -14,20 +14,20 @@ Each folder contains the _src_ folder of a ROS package with associated _CMakeLis
 
 To run:
 * __PX4__
-  * In one terminal run:
+  * In one terminal run: <br />
 	`roslaunch drone_trajectory_follow traj_follow.launch`
-  * In another terminal run:
+  * In another terminal run:<br />
 	`rosrun drone_trajectory_follow TrajFollow.py`
 
 * __swarm__
-  * In one terminal run:
+  * In one terminal run:<br />
 	`roslaunch swarm_search swarm_test.launch`
-  * In another terminal run:
+  * In another terminal run:<br />
 	`roslaunch swarm_seach launch_controllers.launch`
 
 * __plutox__ (WIP)
-  * In one terminal run:
+  * In one terminal run:<br />
 	`roslaunch fly_bot_cpp pluto_gazebo.launch`
-  * In another terminal run:
+  * In another terminal run:<br />
 	`rosrun fly_bot_cpp TrajFollow.py`
 	
